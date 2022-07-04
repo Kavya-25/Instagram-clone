@@ -1,0 +1,11 @@
+@import '../../properties';
+.menu{
+    display: flex;
+    padding-right: 1.5rem;
+    .icon{
+        margin-right: 1.5rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
