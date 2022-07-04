@@ -80,6 +80,24 @@ export default function Cards() {
         likedByNumber={159}
         hours={4}
       />
+      <Card
+        storyBorder={true}
+        accountName="yajatchaudhary"
+        image="https://picsum.photos/800/1000"
+        comments={commentThree}
+        likedByText="devanshiraman"
+        likedByNumber={159}
+        hours={4}
+      />
+      <Card
+        storyBorder={true}
+        accountName="yajatchaudhary"
+        image="https://picsum.photos/800/1000"
+        comments={commentThree}
+        likedByText="devanshiraman"
+        likedByNumber={159}
+        hours={4}
+      />
     </div>
   );
 }
