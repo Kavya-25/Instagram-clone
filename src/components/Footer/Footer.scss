@@ -1,0 +1,17 @@
+@import '../../properties';
+
+.footer{
+    margin: 1rem 0;
+    font-size: 0.8rem;
+    color: $font-color-footer;
+    .links{
+        li{
+            display: inline-block;
+            margin-left: 1rem;
+            cursor: pointer;
+        }
+    }
+    .copyright{
+        font-weight: 800;
+    }
+}

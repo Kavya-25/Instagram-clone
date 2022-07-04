@@ -1,0 +1,15 @@
+@import '../../properties';
+
+.suggestions{
+margin: 1rem 0;
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    .title{
+        color: $font-color-secondary;
+        font-weight: 900;
+    }
+}
+}
