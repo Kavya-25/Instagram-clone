@@ -16,7 +16,9 @@ export default function Menu() {
   <Newpost className='icon'/>
   <Explore className='icon'/>
   <Notifications className='icon'/>
-  <Profileicon iconSize="small" image={image}/>
+  <div className="profileicon">
+  <Profileicon iconSize="small" image={image} />
+  </div>
   
     </div>
   )
