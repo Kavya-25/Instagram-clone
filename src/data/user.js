@@ -45,5 +45,9 @@ export const user=[
     name:"Prateush K shrey",
     username:"prosty"
     },
+    {id:11,
+    name:"Gitika",
+    username:"gogitikago"
+    },
 
 ]

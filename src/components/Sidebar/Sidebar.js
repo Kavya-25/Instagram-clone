@@ -4,8 +4,10 @@ import Sticky from 'react-sticky-el'
 
 export default function Sidebar() {
   return (
-    <div className='sidebar'>
-    
-    </div>
+    <Sticky>
+      <div className="sidebar">
+        
+      </div>
+    </Sticky>
   )
 }
