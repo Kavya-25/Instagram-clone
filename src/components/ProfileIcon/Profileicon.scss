@@ -2,6 +2,8 @@
 
 .storyborder{
     padding: 2px;
+    display: flex;
+    align-items: center;
     background: linear-gradient(
         200deg,
         $gradient-one 25%,
@@ -13,12 +15,20 @@
 }
 .profileIcon{
     border-radius: 50%;
-    border: 2px solid $background-white;
+    border: 3px solid $background-white;
     &:hover{
         cursor: pointer;
     }
     &.small{
         width: 30px;
         height: 30px;
+    }
+    &.medium{
+        width: 40px;
+        height: 40px;
+    }
+    &.big{
+        width: 60px;
+        height: 60px;
     }
 }

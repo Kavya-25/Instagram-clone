@@ -1,0 +1,12 @@
+@import './properties';
+main{
+    background-color: $background-white;
+    margin-top: 60px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+}
