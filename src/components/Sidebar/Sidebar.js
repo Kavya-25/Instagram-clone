@@ -8,7 +8,7 @@ import image from "../images/kavya.jpg";
 
 export default function Sidebar() {
   return (
-      <Sticky>
+      <Sticky >
         <div className="sidebar">
           <Profile
             username="i_kavya_2501"
